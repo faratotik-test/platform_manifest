@@ -26,6 +26,10 @@
   <remote  name="rr-d"
            fetch="https://github.com/ResurrectionRemix-Devices"
            revision="pie" />
+           
+  <remote  name="alice"
+           fetch="https://github.com/faratotik-test"
+           revision="pie" />
 
   <!-- AOSP Projects -->
 
@@ -677,6 +681,7 @@
 
   <include name="snippets/lineage.xml" />
   <include name="snippets/rr.xml" />
+  <include name="snippets/alice.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
